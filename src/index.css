@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.active-link{
+    @apply bg-active rounded-full 
+}
+.btn{
+    @apply h-10 px-4 py-2 rounded shadow
+}
